@@ -1,0 +1,4 @@
+<!--pages/pageinclude/pageinclude.wxml-->
+<include src="./header.wxml" />
+<view>这是body页面</view>
+<include src="./footer.wxml" />

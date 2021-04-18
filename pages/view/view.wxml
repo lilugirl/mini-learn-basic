@@ -1,0 +1,4 @@
+<!--pages/view/view.wxml-->
+<view class="container">
+  <view class="a" hover-class="hover" hover-start-time="1000" hover-stay-time="2000">a</view>
+</view>

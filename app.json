@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/scrollView/scrollView",
+    "pages/view/view",
+    "pages/flex/flex",
+    "pages/pageinclude/pageinclude",
+    "pages/wxs/wxs",
+    "pages/temps/temps",
+    "pages/judgeIfElse/judgeIfElse",
+    "pages/wxKey/wxKey",
+    "pages/listFor/listFor",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

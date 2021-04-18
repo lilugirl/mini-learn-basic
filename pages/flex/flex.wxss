@@ -1,0 +1,40 @@
+/* pages/flex/flex.wxss */
+.container{
+  display:flex;
+  /* flex-direction: row;
+  flex-wrap:wrap-reverse; */
+  justify-content: space-between;
+}
+
+.size{
+  width:100rpx;
+  height:150rpx;
+}
+
+.a{
+  background-color:red;
+  order:1;
+  flex:3;
+}
+.b{
+  background-color:yellow;
+  order:2;
+  flex:2;
+}
+
+.c{
+  background-color:blue;
+  order:5;
+  flex:1;
+}
+
+.d{
+  background-color:pink;
+  order:3;
+  flex:1;
+}
+.e{
+  background-color:palegreen;
+  order:4;
+  flex:1;
+}

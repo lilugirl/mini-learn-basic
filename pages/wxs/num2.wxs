@@ -1,0 +1,6 @@
+var name="小王";
+var age=52;
+module.exports={
+  name:name,
+  age:age
+}

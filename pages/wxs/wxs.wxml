@@ -1,0 +1,15 @@
+<!--pages/wxs/wxs.wxml-->
+<view class="container">
+  <wxs src="./module.wxs" module="item"></wxs>
+  <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  <view>{{item.method("这是一个参数")}}</view>
+
+
+  <!-- <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  <view>{{item.method([1,2,3])}}</view> -->
+
+  <import src="../temps/temps.wxml" />
+  <template is="mytemp" data="{{...person,msg,name:'小兰',age:18}}" />
+</view>

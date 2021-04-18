@@ -1,0 +1,11 @@
+<!--pages/judgeIfElse/judgeIfElse.wxml-->
+<view class="container">
+  <view wx:if="{{ age < 18}}">未成年</view>
+  <view wx:elif="{{ age >= 18 && age <= 30}}">青年</view>
+  <view wx:else>老人</view>
+
+  <block wx:if="{{true}}">
+    <view>这个条件始终成立</view>
+  </block>
+  <view hidden="{{true}}">这里看不到</view>
+</view>

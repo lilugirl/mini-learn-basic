@@ -1,0 +1,16 @@
+var num2 =require("./num2.wxs");
+
+var name="小绿";
+var age=32;
+
+var method=function(obj){
+  console.log('num2 name',num2.name);
+  console.log('num2 age',num2.age);
+  return obj;
+}
+
+module.exports={
+  name:name,
+  age:age,
+  method:method
+}
